@@ -3,12 +3,11 @@ import LandingPage from './LandingPage'
 import PermitWizard from './PermitWizard'
 import StatusTracker from './StatusTracker'
 import ReviewerQueue from './ReviewerQueue'
-import Dashboard from './Dashboard'
 import { usePermitStore } from './store'
 import { UserRole } from './types'
 
 export default function App() {
-  const { currentUser, currentUserRole, isRoleSwitcherOpen, toggleRoleSwitcher } = usePermitStore()
+  const { currentUser, isRoleSwitcherOpen, toggleRoleSwitcher } = usePermitStore()
   const [showPermitWizard, setShowPermitWizard] = useState(false)
 
   const getRoleDisplayName = (role: UserRole | null): string => {
