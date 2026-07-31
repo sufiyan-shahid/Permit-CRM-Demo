@@ -60,7 +60,6 @@ const getReconciliationData = (total: number, returned: number): { totalIncoming
 })
 
 // Generate initial permit data with realistic workflow stages
-// Generate initial permit data with realistic workflow stages
 const MOCK_INITIAL_PERMITS: Permit[] = [
   // --- SUBMITTED APPLICATIONS ---
   {
