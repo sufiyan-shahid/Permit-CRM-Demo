@@ -1,0 +1,58 @@
+*.vite
+node_modules
+.env
+.env.*.local
+dist
+dist-ssr
+*.local
+
+.idea
+.vscode
+*.suo
+*.lnk
+*.swp
+*.swo
+*~
+*.log
+*.tmp
+
+# ---------------------------
+# Dependencies
+# ---------------------------
+.csv
+.xls
+.xlsx
+
+# ---------------------------
+# Miscellaneous
+# ---------------------------
+.DS_Store
+.appleDesktop
+Thumbs.db
+.pyc
+
+# ---------------------------
+# Graphical User Interface
+# ---------------------------
+.vscode
+.idea
+
+*.sublime-project
+*.sublime-workspace
+
+# ---------------------------
+# Runtime data
+# ---------------------------
+*.local
+*.orig
+
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+.lock-wscript
+
+.electron-cache
+*.eslintcache
+
+*.DS_Store
+**/*.DS_Store
