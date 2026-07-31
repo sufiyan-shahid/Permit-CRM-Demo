@@ -1,7 +1,7 @@
 "use client"
 
-import { usePermitStore } from '@/store'
-import { UserRole } from '@/types'
+import { usePermitStore } from './store'
+import { UserRole } from './types'
 import { Building2, CheckCircle, Users, ArrowRight } from 'lucide-react'
 
 export default function LandingPage() {
