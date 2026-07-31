@@ -3,7 +3,6 @@ import LandingPage from './LandingPage'
 import PermitWizard from './PermitWizard'
 import StatusTracker from './StatusTracker'
 import ReviewerQueue from './ReviewerQueue'
-import Dashboard from './Dashboard'
 import { usePermitStore } from './store'
 import { UserRole } from './types'
 
